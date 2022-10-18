@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing enviaLance snapshot  must render correctly 1`] = `
+<View
+  style={
+    Object {
+      "bottom": 0,
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "left": 0,
+      "padding": 8,
+      "position": "absolute",
+      "right": 0,
+    }
+  }
+>
+  <TextInput
+    editable={true}
+    keyboardType="decimal-pad"
+    onChangeText={[Function]}
+    placeholder="R$"
+    style={
+      Object {
+        "borderColor": "#4A4A4A",
+        "borderRadius": 16,
+        "borderWidth": 1,
+        "color": "#4A4A4A",
+        "flex": 1,
+        "fontSize": 16,
+        "height": 53,
+        "margin": 8,
+        "padding": 16,
+        "textAlign": "center",
+      }
+    }
+    value=""
+  />
+  <View
+    accessibilityHint="Enviar Lance"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "borderRadius": 16,
+        "margin": 8,
+        "opacity": 1,
+        "padding": 16,
+      }
+    }
+  />
+</View>
+`;
